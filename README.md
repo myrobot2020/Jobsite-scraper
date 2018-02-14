@@ -1,4 +1,4 @@
-# NAUKRI SCRAPER
+# NAUKRI SCRAPER / RESEDEX SCRAPER / Talent Pool Mapping
  This R code takes in an xlsx file called "NAUKALLINDIA.xlsx" and "compsoundex" to return a file named "R.xlsx"
 
 The sample data structure was a list of 100k sparse string rows which contained details of 10k job seekers and their profile details ie. W, XP, LOC, and CO.
