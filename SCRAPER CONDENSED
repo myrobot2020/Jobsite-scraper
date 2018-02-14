@@ -1,0 +1,25 @@
+
+
+library(readxl)
+library(Hmisc)
+library(data.table)
+
+setwd("~/Desktop")
+
+df<-read_xlsx("NAUK BLORE.xlsx")
+df[2] <- df[1]
+df[3] <- df[1]
+
+df[1] <- shift(df[1],n=2)
+df[2] <- shift(df[2],n=1)
+
+df[4] <- paste(df[,1:3],sep = "~")
+
+
+names(df[,1])<-"wxploc"
+names(df[,2])<-"coedu"
+names(df[,3])<-"skill"
+
+
+df[,1] <- Lag(df[,1],shift = 2)
+df[,2] <- Lag(df[,2],shift = 1)
