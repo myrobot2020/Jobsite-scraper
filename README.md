@@ -1,4 +1,4 @@
-# firstrepo
+# NAUKRI SCRAPER
 As a Data Analyst at Recruise, I found scope for business automation and thus began my web scraping project as it leveraged my data manipulation skills acquired as a Data Science Executive at A.C Nielsen.
 At Recruise:My role involved collecting job seekers data from job portals by manipulating search filters of Wages(Lacs), Location(metros), Experience(0-4)and Company(string).
 I began by scraping web page content data into excel and studied the layout of the desired strings followed by simple VBA scripts to plan the data transformation in R.
