@@ -1,5 +1,5 @@
 # NAUKRI SCRAPER
- This R code taken in an xlsx file called "NAUKALLINDIA.xlsx" and "compsoundex" to return a file named "R.xlsx"
+ This R code takes in an xlsx file called "NAUKALLINDIA.xlsx" and "compsoundex" to return a file named "R.xlsx"
 
 The sample data structure was a list of 100k sparse string rows which contained details of 10k job seekers and their profile details ie. W, XP, LOC, and CO.
 
